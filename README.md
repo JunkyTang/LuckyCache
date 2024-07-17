@@ -1,6 +1,6 @@
 # LuckyCache
 
-[![CI Status](https://img.shields.io/travis/Lucky/LuckyCache.svg?style=flat)](https://travis-ci.org/Lucky/LuckyCache)
+[![CI Status](https://img.shields.io/travis/Lucky/LuckyCache.svg?style=flat)](https://travis-ci.org/JunkyTang/LuckyCache)
 [![Version](https://img.shields.io/cocoapods/v/LuckyCache.svg?style=flat)](https://cocoapods.org/pods/LuckyCache)
 [![License](https://img.shields.io/cocoapods/l/LuckyCache.svg?style=flat)](https://cocoapods.org/pods/LuckyCache)
 [![Platform](https://img.shields.io/cocoapods/p/LuckyCache.svg?style=flat)](https://cocoapods.org/pods/LuckyCache)
