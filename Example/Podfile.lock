@@ -1,0 +1,16 @@
+PODS:
+  - LuckyCache (0.1.0)
+
+DEPENDENCIES:
+  - LuckyCache (from `../`)
+
+EXTERNAL SOURCES:
+  LuckyCache:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LuckyCache: 478d40c2ea9648183f06ba341b3849c123ae9c62
+
+PODFILE CHECKSUM: 932e9b5d5030f7da1697b60329772534f50910a9
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module LuckyCache {
+  umbrella header "LuckyCache-umbrella.h"
+
+  export *
+  module * { export * }
+}
