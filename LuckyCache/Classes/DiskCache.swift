@@ -10,7 +10,7 @@ import Foundation
 
 public class DiskCache {
     
-    private var config: DiskCacheConfig
+    public let config: DiskCacheConfig
     
     public init(config: DiskCacheConfig = DiskCacheConfig()) {
         self.config = config

@@ -15,8 +15,8 @@ public class LuckyCache {
         case disk
     }
     
-    public private(set) var diskCache: DiskCache
-    public private(set) var memoryCache: MemoryCache
+    public let diskCache: DiskCache
+    public let memoryCache: MemoryCache
     
     
     public init(diskCache: DiskCache = DiskCache(),

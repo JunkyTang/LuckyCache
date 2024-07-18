@@ -10,9 +10,9 @@ import Foundation
 
 public class MemoryCache {
     
-    private let cache = NSCache<NSString, NSData>()
+    public let cache = NSCache<NSString, NSData>()
     
-    private var config: MemoryCacheConfig
+    public let config: MemoryCacheConfig
     
     public init(config: MemoryCacheConfig = MemoryCacheConfig()) {
         self.config = config

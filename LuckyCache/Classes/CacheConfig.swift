@@ -10,15 +10,15 @@ import Foundation
 
 public struct DiskCacheConfig {
     
-    private(set) var directory: URL
+    public let directory: URL
     
-    private(set) var folder: String
+    public let folder: String
     
-    private(set) var maxCount: UInt?
+    public let maxCount: UInt?
     
-    private(set) var totalSize: UInt?
+    public let totalSize: UInt?
     
-    private(set) var folderUrl: URL
+    public let folderUrl: URL
     
     public init(directory: URL = FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask)[0],
          folder: String = "com.lucky.cache",
@@ -45,9 +45,9 @@ public struct DiskCacheConfig {
 
 public struct MemoryCacheConfig {
     
-    private(set) var maxCount: Int
+    public private(set) var maxCount: Int
     
-    private(set) var totalSize: Int
+    public private(set) var totalSize: Int
     
     public init(maxCount: Int = 0,
          totalSize: Int = 0) {

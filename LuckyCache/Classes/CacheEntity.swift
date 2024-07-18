@@ -13,7 +13,7 @@ public final class CacheEntity: Codable {
         case duration(startDate: Date,duration: TimeInterval)
         case expires(expirationDate: Date)
         
-        var isValid: Bool {
+        public var isValid: Bool {
             let now = Date().timeIntervalSince1970
             let timeIntervel: TimeInterval
             switch self {
@@ -26,9 +26,9 @@ public final class CacheEntity: Codable {
         }
     }
     
-    var validity: Validity?
+    public let validity: Validity?
     
-    var data: Data
+    public let data: Data
     
     public init(validity: Validity? = nil, data: Data) {
         self.validity = validity
